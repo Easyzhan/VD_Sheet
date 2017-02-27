@@ -18,7 +18,9 @@
         _sheet = [[VD_Sheet alloc] initWithFrame:self.view.bounds titleArr:_titleArray];
     }
        return _sheet;
-      }
+ 
+            }
+    
     
     
   *传入的的titleArray = @[@"二代身份证",@"港澳通行证",@"台湾通行证",@"护照"];*
