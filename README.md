@@ -1,7 +1,9 @@
 # VD_Sheet
 类似于微博&amp;微信的底部弹出框
 ####使用方法:
-      Frame用窗口的大小(如果出现"取消按钮点击无响应的情况")CGRectMake(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT) 
+     
+     
+     //Frame用窗口的大小(如果出现"取消按钮点击无响应的情况")CGRectMake(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT) 
     _sheet = [[VD_Sheet alloc] initWithFrame:self.view.bounds titleArr:_titleArray];
     __weak typeof(_sheet) weakA = _sheet;
     weakA.Click = ^(NSInteger clickIndex) {
