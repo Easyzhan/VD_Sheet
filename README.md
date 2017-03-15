@@ -4,7 +4,9 @@
      
      
      //Frame用窗口的大小(如果出现"取消按钮点击无响应的情况")CGRectMake(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT) 
-    _sheet = [[VD_Sheet alloc] initWithFrame:self.view.bounds titleArr:_titleArray];
+    
+    
+    _sheet = [[VD_Sheet alloc] initWithFrame:self.view.bounds titleArr:_titleArray];
     __weak typeof(_sheet) weakA = _sheet;
     weakA.Click = ^(NSInteger clickIndex) {
 
