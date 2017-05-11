@@ -1,8 +1,7 @@
 # VD_Sheet
 类似于微博&amp;微信的底部弹出框
-####使用方法:
+#### 使用方法:
      
-     
      //Frame用窗口的大小(如果出现"取消按钮点击无响应的情况")CGRectMake(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT) 
     
     
@@ -27,5 +26,5 @@
     
     
     
-  *传入的的titleArray = @[@"二代身份证",@"港澳通行证",@"台湾通行证",@"护照"];*
+     *传入的的titleArray = @[@"二代身份证",@"港澳通行证",@"台湾通行证",@"护照"];*
 ![image](https://ww1.sinaimg.cn/large/006tNbRwgy1fd4sh8ia4gj30ku12agoj.jpg)
