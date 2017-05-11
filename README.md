@@ -26,5 +26,5 @@
     
     
     
-     *传入的的titleArray = @[@"二代身份证",@"港澳通行证",@"台湾通行证",@"护照"];*
+     传入的的titleArray = @[@"二代身份证",@"港澳通行证",@"台湾通行证",@"护照"];
 ![image](https://ww1.sinaimg.cn/large/006tNbRwgy1fd4sh8ia4gj30ku12agoj.jpg)
